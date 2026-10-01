@@ -13,7 +13,7 @@ const PHONE_NUMBER = "+90 537 605 36 02";
 const SERVICE_TOPICS = [
   {
     number: "01",
-    id: "topic-statistical-analysis",
+    id: "topic-power-analysis",
     label: "Power Analizi",
     treeLabel: "Power analizi",
     description:
@@ -23,7 +23,7 @@ const SERVICE_TOPICS = [
   },
   {
     number: "02",
-    id: "topic-apa-reporting",
+    id: "topic-parametric-significance-tests",
     label: "Önemlilik Testleri (Parametrik)",
     treeLabel: "Önemlilik testleri",
     description:
@@ -33,7 +33,7 @@ const SERVICE_TOPICS = [
   },
   {
     number: "03",
-    id: "topic-private-lessons",
+    id: "topic-social-sciences-biostatistics",
     label: "Sosyal Bilimler & Biyoistatistik Analizi",
     treeLabel: "Sosyal & biyoistatistik",
     description:
@@ -43,7 +43,7 @@ const SERVICE_TOPICS = [
   },
   {
     number: "04",
-    id: "topic-survey-preparation",
+    id: "topic-nonparametric-significance-tests",
     label: "Parametrik Olmayan Önemlilik Testleri",
     treeLabel: "Parametrik olmayan önemlilik testleri",
     description:
@@ -53,7 +53,7 @@ const SERVICE_TOPICS = [
   },
   {
     number: "05",
-    id: "topic-spss-data-entry",
+    id: "topic-chi-square-analysis",
     label: "Khi-Karne Analizi",
     treeLabel: "Khi-karne analizi",
     description:
@@ -63,7 +63,7 @@ const SERVICE_TOPICS = [
   },
   {
     number: "06",
-    id: "topic-data-visualization",
+    id: "topic-regression-correlation-analysis",
     label: "Regrasyon Ve Korelasyon Analizi",
     treeLabel: "Regrasyon ve korelasyon analizi",
     description:
@@ -74,12 +74,12 @@ const SERVICE_TOPICS = [
 ] as const;
 
 const TREE_BRANCH_PATHS = [
-  "M500 580 C450 578 395 563 340 558",
-  "M500 580 C550 578 605 563 660 558",
-  "M500 510 C450 500 395 456 340 434",
-  "M500 510 C550 500 605 456 660 434",
   "M500 420 C450 398 395 340 340 310",
   "M500 420 C550 398 605 340 660 310",
+  "M500 325 C450 292 395 221 340 186",
+  "M500 325 C550 292 605 221 660 186",
+  "M500 230 C450 188 395 119 340 62",
+  "M500 230 C550 188 605 119 660 62",
 ] as const;
 
 function BrandMark() {
@@ -255,7 +255,7 @@ function TreeGraphic() {
             <circle
               key={topic.id}
               cx={topic.side === "left" ? 340 : 660}
-              cy={558 - topic.row * 124}
+              cy={310 - topic.row * 124}
               r="5"
               fill="#f8fbf6"
               stroke="#66816a"
@@ -271,7 +271,7 @@ function TreeGraphic() {
             className={`branch-link branch-link--${topic.side}`}
             href={`#${topic.id}`}
             aria-label={`${topic.number}. ${topic.label} konusuna git`}
-            style={{ top: `${90 - topic.row * 20}%` }}
+            style={{ top: `${50 - topic.row * 20}%` }}
           >
             <span className="branch-index">{topic.number}</span>
             <span className="branch-label">{topic.treeLabel}</span>
@@ -986,11 +986,11 @@ export default function Home() {
         <div className="content-shell footer-bottom">
           <span>© Çınar Danışmanlık İstatistik Merkezi</span>
           <a
-            href="https://www.metaistatistik.com/"
+            href="https://cinardanismanlik.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            Profesyonel SPSS &amp; AMOS Analiz Hizmetleri – Meta İstatistik{" "}
+            Çınar Danışmanlık{" "}
             <ArrowUpRight aria-hidden="true" size={13} />
           </a>
         </div>
