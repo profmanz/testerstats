@@ -269,10 +269,10 @@ function TreeGraphic() {
       <picture className="tree-illustration" aria-hidden="true">
         <source
           media="(max-width: 420px)"
-          srcSet="/images/plane-tree-mobile.webp"
+          srcSet="./images/plane-tree-mobile.webp"
         />
         <img
-          src="/images/plane-tree-desktop.webp"
+          src="./images/plane-tree-desktop.webp"
           alt=""
           decoding="async"
           loading="eager"
@@ -615,7 +615,7 @@ export default function Home() {
           <div className="content-shell visual-gallery">
             <figure className="visual-card" data-reveal>
               <img
-                src="/images/data-analysis-laptop.jpg"
+                src="./images/data-analysis-laptop.jpg"
                 alt="Bilgisayarda veri analizi ve istatistik grafikleri"
                 width={3000}
                 height={2000}
@@ -629,7 +629,7 @@ export default function Home() {
             </figure>
             <figure className="visual-card" data-reveal>
               <img
-                src="/images/statistics-research.jpg"
+                src="./images/statistics-research.jpg"
                 alt="Araştırma verilerini ve grafiklerini gösteren bir laptop ekranı"
                 width={3000}
                 height={2000}
