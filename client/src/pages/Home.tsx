@@ -34,10 +34,10 @@ const SERVICE_TOPICS = [
   {
     number: "03",
     id: "topic-private-lessons",
-    label: "eklenecek",
-    treeLabel: "eklencek",
+    label: "Sosyal Bilimler & Biyoistatistik Analizi",
+    treeLabel: "Sosyal & biyoistatistik",
     description:
-      "eklenecek",
+      "Sosyal bilimler, psikoloji, biyoloji ve sağlık bilimlerindeki araştırmalar için çalışma alanına uygun analiz ve yorumlama desteği.",
     side: "left",
     row: 1,
   },
@@ -71,46 +71,6 @@ const SERVICE_TOPICS = [
     side: "right",
     row: 2,
   },
-  {
-    number: "07",
-    id: "topic-scale-development",
-    label: "Ölçek Geliştirme",
-    treeLabel: "Ölçek geliştirme",
-    description:
-      "Araştırmada ölçülmek istenen kavramlara uygun ölçek geliştirme ve bu çalışmanın analiz süreci birlikte değerlendirilir.",
-    side: "left",
-    row: 3,
-  },
-  {
-    number: "08",
-    id: "topic-biostatistics",
-    label: "Sosyal Bilimler & Biyoistatistik Analizi",
-    treeLabel: "Sosyal & biyoistatistik",
-    description:
-      "Sosyal bilimler, psikoloji, biyoloji ve sağlık bilimlerindeki araştırmalar için çalışma alanına uygun analiz ve yorumlama desteği.",
-    side: "right",
-    row: 3,
-  },
-  {
-    number: "09",
-    id: "topic-amos-cfa",
-    label: "AMOS ile Doğrulayıcı Faktör Analizi",
-    treeLabel: "AMOS · DFA",
-    description:
-      "AMOS hizmet başlıkları arasında yer alan doğrulayıcı faktör analizi (DFA/CFA) konusu için akademik analiz danışmanlığı.",
-    side: "left",
-    row: 4,
-  },
-  {
-    number: "10",
-    id: "topic-amos-sem",
-    label: "AMOS ile Yapısal Eşitlik Modeli",
-    treeLabel: "AMOS · YEM / SEM",
-    description:
-      "AMOS ile yapısal eşitlik modeli (YEM/SEM) çalışmalarında analiz sonuçlarını değerlendirmeye yönelik destek.",
-    side: "right",
-    row: 4,
-  },
 ] as const;
 
 const TREE_BRANCH_PATHS = [
@@ -120,10 +80,6 @@ const TREE_BRANCH_PATHS = [
   "M500 510 C550 500 605 456 660 434",
   "M500 420 C450 398 395 340 340 310",
   "M500 420 C550 398 605 340 660 310",
-  "M500 325 C450 292 395 221 340 186",
-  "M500 325 C550 292 605 221 660 186",
-  "M500 230 C450 188 395 119 340 62",
-  "M500 230 C550 188 605 119 660 62",
 ] as const;
 
 function BrandMark() {
