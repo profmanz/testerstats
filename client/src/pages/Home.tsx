@@ -387,11 +387,11 @@ export default function Home() {
           <a
             className="brand"
             href="#home"
-            aria-label="SPSS Yardımı — Başlangıç"
+            aria-label="Çınar Danışmanlık — Başlangıç"
           >
             <BrandMark />
             <span className="brand-copy">
-              <strong>SPSS Yardımı</strong>
+              <strong>Çınar Danışmanlık</strong>
               <small>İstatistik Merkezi</small>
             </span>
           </a>
@@ -430,16 +430,16 @@ export default function Home() {
           <div className="hero-copy">
             <p className="eyebrow hero-eyebrow">
               <span className="eyebrow-rule" />
-              SPSS YARDIMI İSTATİSTİK MERKEZİ
+              ÇINAR DANIŞMANLIK İSTATİSTİK MERKEZİ
             </p>
             <h1 id="site-title">
-              SPSS Yardımı
+              Çınar Danışmanlık
               <br />
               <span>İstatistik Merkezi</span>
             </h1>
             <h2>Profesyonel SPSS İstatistik Analizi Danışmanlığı</h2>
             <p>
-              SPSS Yardımı İstatistik Merkezi olarak, uzman{" "}
+              Çınar Danışmanlık İstatistik Merkezi olarak, uzman{" "}
               <strong>SPSS istatistik analizi</strong> hizmetlerimizle{" "}
               <strong>öğrenci</strong> ve <strong>akademisyenlerin</strong> her
               zaman yanındayız.
@@ -842,7 +842,7 @@ export default function Home() {
               value={41}
               suffix=" yıl"
               label="Deneyim"
-              detail="İstatistik ve temel tıp bilimleri"
+              detail="İstatistik"
             />
             <AnimatedMetric
               value={100}
@@ -886,7 +886,7 @@ export default function Home() {
                 ihtiyaçlarınıza yönelik profesyonel çözümlerle size yardımcı
                 olabiliriz. Tez çalışmanızın veya araştırmanızın başarılı bir
                 şekilde tamamlanması için doğru analizlere ve uzman rehberliğe
-                ihtiyacınız varsa, SPSS Yardımı İstatistik Merkezi olarak biz
+                ihtiyacınız varsa, Çınar Danışmanlık İstatistik Merkezi olarak biz
                 buradayız!
               </p>
               <WhatsAppLink>
@@ -896,9 +896,9 @@ export default function Home() {
             <div className="contact-stamp" aria-hidden="true">
               <BrandMark />
               <span>
-                SPSS
+                ÇINAR
                 <br />
-                YARDIMI
+                DANIŞMANLIK
               </span>
               <small>İSTATİSTİK MERKEZİ</small>
             </div>
@@ -991,13 +991,13 @@ export default function Home() {
                 </span>
                 <ArrowUpRight aria-hidden="true" size={16} />
               </a>
-              <a href="mailto:denizsavkay@gmail.com" className="contact-row">
+              <a href="mailto:example@gmail.com" className="contact-row">
                 <span className="contact-icon">
                   <Mail aria-hidden="true" size={18} />
                 </span>
                 <span>
                   <small>E-posta</small>
-                  <strong>denizsavkay@gmail.com</strong>
+                  <strong>example@gmail.com</strong>
                 </span>
                 <ArrowUpRight aria-hidden="true" size={16} />
               </a>
@@ -1014,12 +1014,12 @@ export default function Home() {
           <a className="brand footer-brand" href="#home">
             <BrandMark />
             <span className="brand-copy">
-              <strong>SPSS Yardımı</strong>
+              <strong>Çınar Danışmanlık</strong>
               <small>İstatistik Merkezi</small>
             </span>
           </a>
           <p>
-            SPSS Yardımı İstatistik Merkezi olarak, akademik çalışmalarınız için
+            Çınar Danışmanlık İstatistik Merkezi olarak, akademik çalışmalarınız için
             profesyonel istatistik analizi, raporlama ve eğitim desteği
             sunuyoruz.
           </p>
@@ -1028,7 +1028,7 @@ export default function Home() {
           </div>
         </div>
         <div className="content-shell footer-bottom">
-          <span>© SPSS Yardımı İstatistik Merkezi</span>
+          <span>© Çınar Danışmanlık İstatistik Merkezi</span>
           <a
             href="https://www.metaistatistik.com/"
             target="_blank"

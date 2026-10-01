@@ -333,7 +333,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  color: #78847a;
+  color: #315d47;
   font-size: 8px;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -342,7 +342,7 @@ a {
 .tree-rootline span {
   width: 18px;
   height: 1px;
-  background: #8da28e;
+  background: #315d47;
 }
 .hero-copy {
   max-width: 555px;
