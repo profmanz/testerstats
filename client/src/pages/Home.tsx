@@ -445,7 +445,7 @@ export default function Home() {
                 geçmeden önce, <strong>alandaki uzmanlığımızdan</strong> emin
                 olmanız için, bu web sitesinde ücretsiz olarak yayınladığımız{" "}
                 <a
-                  href="https://www.spss-yardimi.com/category/spss-analiz/"
+                  href="https://cinardanismanlik.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
